@@ -215,7 +215,7 @@ siteClcd = all          # 전체 정보제공처(고용24+사람인+잡코리아
 
 ```bash
 pip install requests beautifulsoup4 pandas
-python work24_crawler.py
+python work24-crawler.py
 ```
 
 기본값은 서울 + IT 직종, 1페이지(100건) 테스트 수집 후 JSON으로 저장. `run_crawler(max_pages=...)` 값을 조정해 수집 범위 변경 가능.
